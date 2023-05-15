@@ -12,7 +12,6 @@ save_png <- function(name,
                      img_dir = NULL) {
   # saves base R plot to img_dir/filename.png
   # default width and height is 350
-  img_dir <- NULL
   if (is.null(img_dir)) {
     stop("You did not provide a img_dir argument")
   }
