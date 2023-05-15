@@ -8,6 +8,7 @@
 #'
 # #'  @examples
 #' @importFrom grDevices png
+#' @importFrom here here
 save_png <- function(name,
                      img_dir = NULL) {
   # saves base R plot to img_dir/filename.png
@@ -16,7 +17,7 @@ save_png <- function(name,
     stop("You did not provide a img_dir argument")
   }
   out <- here::here(img_dir)
-  rhelpers:::create_dir(out)
+  create_dir(out)
   fullname <- paste0(out, "/", name, ".png")
   grDevices::dev.copy(device = png, fullname)
   grDevices::dev.off()
