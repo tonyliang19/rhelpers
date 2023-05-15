@@ -1,0 +1,11 @@
+Package: rhelpers
+Title: R helpers for the multi-omics pipeline project in Nextflow
+Version: 1.0.0
+Authors@R: 
+    person("Tony", "Liang", , "chunqingliang@gmail.com", role = c("aut", "cre"),
+           )
+Description: This package contains widely used helpers in the multi-omics pipeline project in Nextflow.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
