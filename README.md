@@ -15,5 +15,6 @@ The goal of rhelpers is to …
 You can install the development version of rhelpers like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages('devtools')
+devtools::install_github('tonyliang19/rhelpers)
 ```
