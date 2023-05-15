@@ -7,6 +7,6 @@ create_dir <- function(out) {
     dir.create(out)
     print(paste(out, "created"), sep=" ")
   } else {
-    print(paste0(out, " exists already"))
+    # does nothing
   }
 }
