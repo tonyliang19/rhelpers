@@ -18,7 +18,7 @@ save_png <- function(name,
   }
   out <- here::here(img_dir)
   create_dir(out)
-  fullname <- paste0(out, "/", name, ".png")
+  fullname <- paste0(out, name, ".png")
   grDevices::dev.copy(device = png, fullname)
   grDevices::dev.off()
   print(paste0(name, " saved at ", fullname))
